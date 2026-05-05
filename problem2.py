@@ -18,3 +18,4 @@ cur.execute(sql)
 for row in cur.fetchall():
    print('row[0]=', row[0])
    print('row[1]=', row[1])
+#line 11 " operatioanl error - no such table users"
