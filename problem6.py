@@ -21,3 +21,6 @@ for user_id in user_ids:
     cur.execute(sql)
     for row in cur.fetchall():
         print('id=', row[0], 'sender_id=', row[1], 'message=', row[2], 'created_at=', row[3])
+
+#id= 9
+#id = 10

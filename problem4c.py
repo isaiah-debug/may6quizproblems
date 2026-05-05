@@ -21,4 +21,6 @@ for row in cur.fetchall():
    print('row[0]=', row[0])
    print('row[1]=', row[1])
 
+# row [0] = 10
+# row [1] = example
 

@@ -22,3 +22,5 @@ for user_id in user_ids:
     for row in cur.fetchall():
         print('row[0]=', row[0])
 
+# row[0]= 2
+# row[0]= 1
